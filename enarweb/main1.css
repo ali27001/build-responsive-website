@@ -1,0 +1,251 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f4f4f4;
+}
+.slider{
+    padding: 0 30px;
+}
+.carousel-item img{
+    height: 500px;
+    width: 100%;
+}
+.wrapper{
+    padding: 0 30px;
+
+}
+.infox{
+    position: relative;
+}
+.info-box{
+    position: absolute;
+    width: 100%;
+    top: -90px;
+
+}
+.info{
+    background-image: url(img/infobg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-color: #e51723;
+    padding: 30px;
+    text-align: center;
+}
+.info h3{
+    font-size: 43px;
+    margin-bottom: -12px;
+    font-weight: bold;
+}
+.info p {
+    font-size: 23px;
+}
+.info .completed{
+    border-right: 1px solid;
+}
+.relative {
+    position: relative;
+}
+.carousel-caption{
+    right: initial;
+    left: 15px;
+    text-align: start;
+    bottom: 80px;
+}
+.carousel-caption .title1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.carousel-caption .title2{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.carousel-caption .title3{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Open Sans Semibold";
+}
+.carousel-indicators{
+    bottom: 100px;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-left: inherit;
+}
+.carousel-indicators li{
+    height: 10px;
+    border-radius: 50%;
+    width: 10px;
+}
+
+.references{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.card{
+    width: 100%;
+    margin-top: 10px;
+}
+.line{
+    height: 1px;
+    width: 90%;
+    background: #cdcdcd;
+    margin: 0 auto;
+}
+.card-title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+.card-text{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    color: #595959;
+}
+.card-body .location{
+    font-family: "Open Sans Semibold";
+    float: left;
+    color: #595959;
+}
+.card-body .date{
+    font-family: "Open Sans Semibold";
+    float: right;
+    color: #e51723;
+    font-weight:600;
+}
+.card-img-top{
+    height: 200px;
+}
+.margin-0{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.footer-box {
+    font-size: 14px;
+    display: flex;
+    padding-bottom: 90px;
+
+}
+
+.footer-box h3{
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer-logo{
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 7px;
+    height: 30px;
+}
+.footer-box .location span{
+    display: block;
+    padding-bottom: 10px;
+}
+.footer-box .location a{
+    color: #000;
+    text-decoration: underline;
+
+}
+.footer-right{
+    font-size: 14px;
+    float: right;
+}
+footer{
+    padding-top: 50px;
+    background-color: #e8e8e8;
+}
+.justify-content-flex-end{
+    justify-content:flex-end;
+}
+.align-self-flex-end{
+    align-self:flex-end;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+}
+li.nav-item.active {
+    border-bottom: 2px solid red;
+    border-bottom-width: 4px;
+}
+.lang{
+    border-radius: 0px;
+    background: #e51723;
+    padding: 0;
+    color: #fff;
+}
+.lang:focus{
+    border-radius: 0px;
+    background: #e51723;
+    padding: 0;
+    color: #fff;
+}
+
+.info-title{
+    margin-top: 20%;
+}
+
+
+
+
+/*********** responsive ********************/
+@media screen and (min-width: 300px) {
+    .references {
+        margin-top: 160px;
+    }
+    .info h3 {
+        font-size: 30px;
+        margin-bottom: -5px;
+        font-weight: bold;
+    }
+    .info p {
+        font-size: 15px;
+    }
+    .carousel-item img {
+        height: 300px;
+    }
+    .info-box{
+        position: inherit;
+        top: 0;
+        margin-top: 30px;
+    }
+    .references {
+        margin-top: 30px;
+    }
+    .slider {
+        padding: 0 15px;
+    }
+    .carousel-caption {
+        bottom: 30px;
+    }
+    .lang{
+        width: 80px;
+    }
+}
+
+
+@media screen and (min-width: 750px) {
+
+    .info-box {
+        top: -96px;
+    }
+    .references {
+        margin-top: -35px;
+    }
+    .carousel-item img {
+        height:500px;
+    }
+    .carousel-caption {
+        bottom: 80px;
+    }
+    .slider {
+        padding: 0 30px;
+    }
+    .lang{
+        width: 100%;
+    }
+}
+
